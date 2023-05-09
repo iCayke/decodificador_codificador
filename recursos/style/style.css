@@ -1,0 +1,198 @@
+/*Corpo e fonte*/
+body {
+    background: #F3F5FC;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+/*header*/
+header img {
+    margin: 2em;
+    margin-left: 4em;
+}
+
+/*main*/
+/*Digite seu texto aqui*/
+main textarea {
+    color: #0A3871;
+    font-size: 32px;
+    width: 680px;
+    /*height: 48px;*/
+    position: absolute;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background-color: #F3F5FC;
+    resize: none;
+}
+
+.aviso{
+    display: flex;
+    position: absolute;
+    top: 72.5%;
+    left: 260px;
+    font-size: 12px;
+}
+
+.aviso::before {
+    content: '🛈';
+}
+
+/*Botão de decodificar*/
+.botoes > input {
+
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    justify-content: center;
+    margin-right: 2em;
+    font-weight: bold;
+}
+
+/*efeito no botao */
+
+.botoes > input:hover {
+    width: 340px;
+    height: 72px;
+    transition: 400ms;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.botoes {
+    display: flex;
+    position: absolute;
+    top: 75%;
+    left: 240px;
+    
+}
+
+#criptografar {
+    background-color: #0A3871;
+}
+
+.exibicao_mensagem {
+    position: absolute;
+    width: 400px;
+    height: 84%;
+    left: 1000px;
+    top: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.exibicao_mensagem img {
+    margin-top: 19%;
+    margin-left: 9%;
+}
+
+.exibicao_mensagem h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+    width: 80%;
+    margin: 1.5em auto;
+}
+
+.exibicao_mensagem p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.botaoCopiar {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    padding: 24px;
+
+    position: absolute;
+    top: 140px;
+    width: 336px;
+    height: 67px;
+    margin-left: 8.4%;
+    margin-top: 89%;
+    /*left: 1032px;
+    top: 885px;*/
+
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    /*Texto do botao*/
+    text-align: center;
+    color:#0A3871;
+    transition: 400ms;
+}
+
+.botaoCopiar:hover {
+    transition: 400ms;
+    width: 342px;
+    height: 73px;
+    background-color:#D8DFE8 ;
+    margin-left: 8.2%;
+    cursor: grab;    
+}
+
+.botaoCopiar:active {
+    background-color:#0A3871;
+    cursor: grabbing;
+    color: #D8DFE8;
+}
+
+#mensagemCriptografadaExibida {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: #0A3871;
+    
+}
+
+footer {
+    background-color: #0A3871;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5em 0;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+footer p a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
